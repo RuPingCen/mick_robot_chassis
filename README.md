@@ -29,7 +29,10 @@
 - **PCB_File**：存放小车上所用PCB文件
 - **Reference_Documents**：存放相关的传感器的使用手册等
 ## 1 简介
+<div align=center>
 <img src="README.assets/mickx4-v3.png" alt="mickx4-v3-1" style="zoom:70%;" />
+</div>
+
 
 ![image-20240411174345904](README.assets/fengmian.gif)
 
@@ -41,7 +44,9 @@ master分支代码文件可适配**两轮**、**四轮差速小车**。两轮差
 
 下图所示，小车车尾面板第一排接口从左到右依次为电量显示模块、急停按钮、三色指示灯、电源按钮，面板第二排接口从左到右依次为电池充电口、外部供电接口（24V/10A）、232串口、以太网调试口。面板对外提供24V/10A的电源用作传感器供电，采用GX16-2芯航空插头（**1号引脚为+VCC，2号引脚为GND** 注意面板放电口输出电压为22.4-29.4V）。
 
-![image-20241120234843655](README.assets/image-20241120234843655.png)
+<div align=center>
+<img src="README.assets/image-20241120234843655.png" alt="image-20241120234843655" />
+</div>
 
 **（1）小车状态指示灯**
 
@@ -54,18 +59,24 @@ master分支代码文件可适配**两轮**、**四轮差速小车**。两轮差
 3、若在小车开机时刻出现红灯慢闪4次则表示控制板传感器故障（IMU未初始化）。
 
 **（2）以太网调试口 **
+
 小车面板上以太网调试口IP地址固定为“192.168.0.7”，将网线连接面板调试口与电脑，配置电脑IP地址为“192.168.0.201”。利用github仓库目录下“Reference_Documents/02_调试工具/网络_串口调试工具.exe”工具，将调试工具默认端口设置为8234，串口波特率为256000，工作模式设置为TCP服务端，即可打印小车调试信息。
 
 小车内部是通过外接串口转以太网模块实现以太网通讯的。再对小车维修时，若设置模块后忘记参数及IP地址。可打开小车外壳，找到如下图所示的串口转以太网模块，通过短接GND与模块上的复位引脚RST(引脚编号为4)进行复位（短接时间≥200ms），网络复位以后网络模块ip默认为192.168.0.7，通讯波特率为115200。模块引脚如下图所示。
 
-![image-20241120234954846](README.assets/image-20241120234954846.png)
+<div align=center>
+<img src="README.assets/image-20241120234954846.png" alt="image-20241120234954846" />
+</div>
 
 
 
 **（3）小车底盘充电 **
+
 对小车电池充电请使用配套的充电器进行充电！充电时将充电器圆孔插头插入小车面板充电口，充电器功率约为180W，充电器输出电压为24-29.4V,充电时长约为4-5小时。
 
-![image-20241120235055116](README.assets/image-20241120235055116.png)
+<div align=center>
+<img src="README.assets/image-20241120235055116.png" alt="image-20241120235055116" />
+</div>
 
 ==注：==[小车固件更新操作说明](https://github.com/RuPingCen/mick_robot_chasiss/tree/master/小车组装说明.md) 
 
@@ -81,17 +92,22 @@ master分支代码文件可适配**两轮**、**四轮差速小车**。两轮差
 
 3. 左手边摇杆竖直方向通道（ch3）控制小车前后运动（如下图所示），右边的摇杆水平通道控制小车左右旋转。
 
-   ![image-20241120235242012](README.assets/image-20241120235242012.png)
-
+<div align=center>
+   <img src="README.assets/image-20241120235242012.png" alt="image-20241120235242012" />
+</div>
    
 
 遥控器电池电压低的时候，会发出 “滴滴~”的声响，此时打开后盖将电池取出。（注意电池插头的正负方向，对应遥控器背后”+“，”—“标识）
 
-![image-20241120235300656](README.assets/image-20241120235300656.png)
+<div align=center>
+<img src="README.assets/image-20241120235300656.png" alt="image-20241120235300656" />
+</div>
 
 使用配套充电器充电，电池充满以后充电器的灯由红色变为绿色。遥控器充电时需使用遥控器对应的充电器，遥控器电池为2s电池，电池电压范围（6.4V-8.4V）。
 
-![image-20241120235307637](README.assets/image-20241120235307637.png)
+<div align=center>
+<img src="README.assets/image-20241120235307637.png" alt="image-20241120235307637" />
+</div>
 
 ### 2.3 启动小车ROS节点
 
@@ -134,7 +150,9 @@ roslaunch mick_bringup mickrobot_v3.launch
 
 小车节点启动以后可以通过rostopic list命令查看到该ROS节点会对外发布如下Topic
 
-![ROS-node-1](README.assets/ROS-node-1-1718377977781-1.png)
+<div align=center>
+<img src="README.assets/ROS-node-1-1718377977781-1.png" alt="ROS-node-1" />
+</div>
 
 其中：
 
