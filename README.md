@@ -176,7 +176,7 @@ roslaunch turtlebot3_bringup turtlebot3_model.launch
 
 板子外形为99*99 mm 安装孔位于四周呈轴对称分布，孔中心间距为93mm,孔直径为φ3.1 mm。如下图所示。
 
-<img src="https://raw.githubusercontent.com/RuPingCen/blog/master/mick_robot_chasiss/fig/control_fig4.png" alt="control_fig4" style="zoom: 57%;" />
+<img src="https://raw.githubusercontent.com/RuPingCen/blog/master/mick_robot_chasiss/fig/control_fig4.png" alt="control_fig4" style="zoom: 40%;" />
 
 
 ## 3 小车电源板-功能说明
