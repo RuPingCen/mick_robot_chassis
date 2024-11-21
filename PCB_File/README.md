@@ -26,9 +26,10 @@
 第1版和第3版的小车控制板外形和安装孔位一致。
 
 板子外形为99*99 mm 安装孔位于四周呈轴对称分布，孔中心间距为93mm,孔直径为φ3.1 mm。如下图所示。
-
+ 
+<div align=center>
 <img src="https://raw.githubusercontent.com/RuPingCen/blog/master/mick_robot_chasiss/fig/control_fig4.png" alt="control_fig4" style="zoom: 40%;" />
-
+</div>
 
 ## 2 小车电源板
 如下图所示，设计如下电源板以满足对工控机和自主导航小车车载传感器供电需求。
@@ -39,6 +40,6 @@
 - 输出1路DC 12V 3.5A
 - 输出1路DC 19V 3.5A
   
-
+<div align=center>
 <img src="https://raw.githubusercontent.com/RuPingCen/blog/master/mick_robot_chasiss/fig/pwr_fig3.png" alt="pwr_fig1" style="zoom:80%;" />
-
+</div>
