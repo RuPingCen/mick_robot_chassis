@@ -6,20 +6,25 @@
 
 ------------------------------------------------------------------------------------------
 
-注意：开源的电源板和控制板仅供大家自己打样学习用，切勿用于商业用途。问题、项目合作可联系 cenruping@vip.qq.com，可以代为调试、新开发线控底盘或针对已有的小车底盘设计**工业版控制器**及**大功率电源模块**。也欢迎加QQ群讨论交流  1149897304 (开源ROS自主导航小车)；
+注意：开源的电源板和控制板仅供大家自己打样学习用，切勿用于商业用途。问题、项目合作可联系 cenruping@vip.qq.com。也欢迎加QQ群讨论交流  1149897304 (开源ROS自主导航小车)；
 
-- 小功率电源板-[淘宝链接](https://item.taobao.com/item.htm?spm=2013.1.w4023-18698948782.10.3cd752e6AWcwLT&id=702856225631)
-- 大功率电源模块-[淘宝链接](https://item.taobao.com/item.htm?spm=a213gs.success.result.1.5ac34831gMQFX4&id=746778756080)
-- 控制板-V1-[淘宝链接](https://item.taobao.com/item.htm?spm=2013.1.w4023-18698948782.7.5ec21803wgmf68&id=649231129557)
+- [小功率电源板](https://item.taobao.com/item.htm?spm=2013.1.w4023-18698948782.10.3cd752e6AWcwLT&id=702856225631)
+- [大功率电源模块](https://item.taobao.com/item.htm?spm=a213gs.success.result.1.5ac34831gMQFX4&id=746778756080)
+- [控制板-V1](https://item.taobao.com/item.htm?spm=2013.1.w4023-18698948782.7.5ec21803wgmf68&id=649231129557)
 
 ------------------------------------------------------------------------------------------
 
+**使用手册**
+
+- [小车底盘使用说明.pdf](https://github.com/RuPingCen/mick_robot_chasiss/tree/master/小车底盘使用说明.pdf)
+
 **代码说明**
+
 - **master分支 为第3版小车 MickX4-V3（ 最新版）**，
 
 - MickX4-V2分支为第2版小车代码分支。 
 
-- M4分支为麦克纳姆轮第一版小车代码分支。[项目更新日志](https://github.com/RuPingCen/mick_robot_chasiss/tree/master/更新日志.md)
+- M4分支为麦克纳姆轮第一版小车代码分支。[项目更新日志](https://github.com/RuPingCen/mick_robot_chasiss/tree/master/Reference_Documents/更新日志.md)
 
 **文件目录说明**
 
@@ -78,8 +83,7 @@ master分支代码文件可适配**两轮**、**四轮差速小车**。两轮差
 <div align=center>
 <img src="README.assets/image-20241120235055116.png" alt="image-20241120235055116" />
 </div>
-
-==注：==[小车固件更新操作说明](https://github.com/RuPingCen/mick_robot_chasiss/tree/master/小车组装说明.md) 
+==注：==[小车固件更新操作说明](https://github.com/RuPingCen/mick_robot_chasiss/tree/master/Reference_Documents/小车组装说明.md) 
 
 
 
