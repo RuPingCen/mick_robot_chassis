@@ -12,7 +12,9 @@
 
 **使用手册**
 
-- [小车底盘使用说明.pdf](https://github.com/RuPingCen/mick_robot_chasiss/tree/master/小车底盘使用说明.pdf)
+- 机器人使用手册： https://www.kdocs.cn/l/cs9gAeUeqiXR
+  
+- 底盘二次开发SDK接口说明：https://www.kdocs.cn/l/cs3HerxtIGDS
 
 **代码说明**
 
